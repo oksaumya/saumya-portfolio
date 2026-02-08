@@ -11,7 +11,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
 export const Hero = () => {
   return (
@@ -71,13 +71,13 @@ export const Hero = () => {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
+            {/* <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -86,12 +86,19 @@ export const Hero = () => {
               <SiLeetcode size={30} />
             </Link>
             <Link
+              href={personalData.codeforces}
+              target='_blank'
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <SiCodeforces size={30} />
+            </Link>
+            {/* <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="flex items-center gap-3">
@@ -139,13 +146,13 @@ export const Hero = () => {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">React</span>
+                <span className="text-amber-300">MERN stack</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">UI/UX Design</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -155,7 +162,11 @@ export const Hero = () => {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Django</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Basic Machine Learing</span>
+                <span className="text-amber-300">Machine Learing</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Web3</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">DevOps</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
@@ -196,7 +207,7 @@ export const Hero = () => {
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
                 <span className="mr-2 text-white">skills.length</span>
                 <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="text-orange-400">10</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>

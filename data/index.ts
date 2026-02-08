@@ -8,7 +8,8 @@ export const personalData = {
   facebook: "https://facebook.com/saumyakumar",
   leetcode: "https://leetcode.com/oksaumya",
   twitter: "https://twitter.com/oksaumya",
-  resume: "#",
+  codeforces: "https://codeforces.com/profile/oksaumya",
+  resume: "https://drive.google.com/file/d/1ADTByWN_cH8zSuIWAWyif-lGWGRBIuCQ/view?usp=sharing",
 } as const;
 
 export const navItems = [
