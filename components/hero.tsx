@@ -8,7 +8,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 import { personalData } from "@/data";
 import Image from "next/image";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+// import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode, SiCodeforces } from "react-icons/si";
